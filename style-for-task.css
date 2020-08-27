@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Exo2.0-Thin";
+  src: url(font/Exo2.0-Thin.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Exo2.0-Bold"
+    src: url(font/9839.otf);
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  min-width: 960px;
+  font-family: "Exo2.0-Thin";
+  line-height: 32px;
+  color: #222222;
+  background-image: url("Pattern.png");
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.container {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  margin-left: 7%;
+}
+
+.container:hover, .container_2:hover, .container_3:hover {
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.container_2 {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  margin-left: 37%;
+}
+
+.container_3 {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  margin-left: 67%;
+}
+
+.border {
+  height: 500px;
+  width: auto;
+  left: 20px;
+  top: 10px;
+  z-index: 5;
+  margin-left: ;
+}
+
+.main-name {
+  font-family: "Arial";
+  text-align: left;
+  font-weight: bold;
+  font-size: 25pt;
+  line-height: 1;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  z-index: 10;
+}
+
+h1 {
+  font-family: "Exo2.0-Thin";
+  text-align: center;
+  font-size: 28pt;
+  color: white;
+  margin-top: 50px;
+}
+
+.nyam {
+  font-family: "Arial";
+  font-size: 32pt;
+  z-index: 10;
+}
+
+.name {
+  z-index: 10;
+  margin-top: 10px;
+  position: absolute;
+  top: 20px;
+  left: 70px;
+}
+
+.mouse {
+  text-align: left;
+  position: absolute;
+  line-height: 1;
+  top: 170px;
+  left: 70px;
+  z-index: 10;
+}
+
+#circle_1 {
+  background: #2ea8e6;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  height: 80px;
+  width: 80px;
+  color: white;
+  position: absolute;
+  left: 240px;
+  top: 410px;
+  z-index: 10;
+  line-height: 0.75;
+}
+
+.kilo {
+  text-align: center;
+  margin-left: -10px;
+}
+
+.container_2 #circle_1 {
+  background: #c9456d;
+}
+
+.container_3 #circle_1 {
+  background: #b3b3b3;
+}
+
+.kilo {
+  text-align: center;
+  margin-left: 4px;
+  line-height: 100%;
+  font-size: 15pt;
+}
+
+.kg {
+  text-align: center;
+  font-size: 30pt;
+  display: inline-block;
+  line-height: 100%;
+  margin-left: 4px;
+  font-family: "Arial";
+  font-weight: 400;
+}
+
+.card-border {
+  margin: 14px;
+  position: relative;
+  width: 328px;
+  height: 488px;
+  background-color: #2ea8e6;
+  border-radius: 14px;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+  z-index: -1;
+}
+
+.container_2 .card-border {
+  background-color: #c9456d;
+}
+
+.container_3 .card-border {
+  background-color: #b3b3b3;
+}
+
+.card {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 320px;
+  height: 480px;
+  background-color: #f2f2f2;
+  background-image: url("Photo.png");
+  background-size: 370px auto;
+  background-position: right -20px bottom -100px;
+  border-radius: 11px;
+  clip-path: polygon(14.7% 0, 100% 0, 100% 100%, 0 100%, 0 9.7%);
+  z-index: 10;
+  background-repeat: no-repeat;
+}
+
+div.text {
+  color: white;
+  font-size: 14px;
+}
+
+.container_3 .text {
+  color: #f8f6b5;
+}
+
+a {
+  color: #2ea8e6;
+  border-bottom: 1px dashed #2ea8e6;
+  text-decoration: none;
+}
+
+div.menu {
+  display: block;
+  height: 600px;
+  width: auto;
+}
+
+.grey {
+  position: absolute;
+  top: 22px;
+  left: 17px;
+  width: 310px;
+  height: 476px;
+  background-color: rgba(242, 242, 242, 0.5);
+  background-size: 370px auto;
+  background-position: right -20px bottom -100px;
+  border-radius: 11px;
+  clip-path: polygon(14.7% 0, 100% 0, 100% 100%, 0 100%, 0 9.7%);
+  z-index: 20;
+}
